@@ -1,0 +1,30 @@
+{
+    "men": {
+      "total": "212.9M",
+      "by_country": {
+        "Australia": "12.84M",
+        "Ghana": "16.46M",
+        "Indonesia": "139.13M",
+        "Kenya": "27.32M"
+      }
+    },
+    "women": {
+      "total": "212.9M",
+      "by_country": {
+        "Australia": "12.94M",
+        "Ghana": "16.38M",
+        "Indonesia": "137.23M",
+        "Kenya": "27.66M"
+      }
+    },
+    "youth": {
+      "total": "172.9M",
+      "by_country": {
+        "Australia": "5.71M",
+        "Ghana": "14.62M",
+        "Indonesia": "82.96M",
+        "Kenya": "24.42M"
+      }
+    }
+  }
+  

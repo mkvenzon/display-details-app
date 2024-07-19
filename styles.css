@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: row;
+}
+
+#container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h2 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.card .country {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #b2ebf2; }
+
+.card .total {
+    padding: 5px;
+    border-radius: 4px;
+    color: white; 
+}
+
+.men .card {
+    background-color: #e0f7fa; 
+}
+
+.men .country {
+    background-color: #e0f7fa; 
+}
+
+.men .total {
+    background-color: #008b8b; 
+}
+
+.women .card {
+    background-color: #e6e6fa; 
+}
+
+.women .country {
+    background-color: #e6e6fa; 
+}
+
+.women .total {
+    background-color: #712F8E; 
+}
+
+.youth .card {
+    background-color: #E1F5FE; 
+}
+
+.youth .country {
+    background-color: #E1F5FE; 
+}
+
+.youth .total {
+    background-color: #187bd1; 
+}
